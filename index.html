@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Projeto Agrinho 2025 - Inscrição de Concurso</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #67b26f, #4ca2cd);
+    color: #11421a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    background: rgba(255 255 255 / 0.85);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  header h1 {
+    font-size: 2.25rem;
+    color: #2a563a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(140,170,140,0.4);
+  }
+  header p.subtitle {
+    font-size: 1.1rem;
+    margin-top: 0.25rem;
+    color: #355d3f;
+  }
+
+  main {
+    flex: 1 0 auto;
+    max-width: 720px;
+    background: rgba(255 255 255 / 0.95);
+    padding: 2rem 2.5rem;
+    margin: 2rem auto 3rem;
+    border-radius: 14px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    color: #2e5a23;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    border-bottom: 3px solid #68a655;
+    padding-bottom: 0.3rem;
+  }
+
+  p, ul {
+    font-size: 1rem;
+    color: #3b4f28;
+    line-height: 1.55;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+  ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #4e8537;
+    font-weight: bold;
+  }
+
+  .highlight {
+    font-weight: 700;
+    color: #417b2b;
+  }
+
+  .btn-contact {
+    display: inline-block;
+    background-color: #59893f;
+    color: white;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(89,137,63,0.6);
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+  }
+
+  .btn-contact:hover {
+    background-color: #3e6121;
+  }
+
+  footer {
+    background: #2a4a1c;
+    color: #b5cdaa;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 400px) {
+    main {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p.subtitle {
+      font-size: 0.9rem;
+    }
+
+    .btn-contact {
+      font-size: 1rem;
+      padding: 12px 22px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Projeto Agrinho 2025</h1>
+  <p class="subtitle">Inovação e Sustentabilidade para o Futuro da Agricultura</p>
+</header>
+<main>
+  <section aria-label="Introdução do Projeto">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      O Projeto Agrinho 2025 propõe soluções inovadoras para estimular práticas agrícolas sustentáveis aliadas à preservação do meio ambiente, educação ambiental e valorização das comunidades rurais.
+    </p>
+  </section>
+
+  <section aria-label="Detalhes da Proposta">
+    <h2>Proposta e Objetivos</h2>
+    <ul>
+      <li class="highlight">Educação Ambiental nas Escolas do Campo:</li>
+      <li>Elaboração de atividades educativas práticas e interativas para estudantes do meio rural.</li>
+      <li class="highlight">Agricultura Sustentável:</li>
+      <li>Promover o uso de técnicas agroecológicas que preservem o solo, a água e a biodiversidade.</li>
+      <li class="highlight">Inclusão Social:</li>
+      <li>Envolver famílias e comunidades na gestão e execução do projeto para garantir impacto social e cultural.</li>
+      <li class="highlight">Engajamento Comunitário:</li>
+      <li>Fomentar a participação ativa através de eventos, oficinas e redes colaborativas.</li>
+    </ul>
+  </section>
+
+  <section aria-label="Benefícios Esperados">
+    <h2>Benefícios Esperados</h2>
+    <ul>
+      <li>Aumento da conscientização ambiental entre jovens e adultos rurais;</li>
+      <li>Melhoria na qualidade dos recursos naturais e produção agrícola;</li>
+      <li>Fortalecimento da identidade cultural das comunidades;</li>
+      <li>Criação de modelos replicáveis para outras regiões do país.</li>
+    </ul>
+  </section>
+
+  <section aria-label="Contato">
+    <h2>Contato</h2>
+    <p>Quer saber mais ou apoiar nossa iniciativa? Entre em contato conosco!</p>
+    <a href="mailto:contato@agrinho2025.com.br" class="btn-contact" aria-label="Enviar email para contato@agrinho2025.com.br">Enviar Email</a>
+  </section>
+</main>
+<footer>
+  &copy; 2024 Projeto Agrinho 2025 - Todos os direitos reservados
+</footer>
+</body>
+</html>
+
